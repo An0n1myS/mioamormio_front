@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+.con-text {
+	width: 80%;
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px 10px;
+	background: rgba(229, 229, 229, 1);
+}
+
+.text_1 {
+	margin-top: 15px;
+}
+
+.pom {}
+
+.pom__name {
+	text-align: center;
+}
+
+.pom__image {
+	display: flex;
+}
+
+.per-img {
+	justify-content: center;
+}
+
+.per-img__1 {
+	width: 40%;
+	height: 50%;
+}
+
+.per-img__2 {
+	width: 15%;
+	height: 15%;
+	align-self: center;	
+}
+
+.per-img__3 {
+	width: 40%;
+	height: 50%;
+}
+
+.pom__kittens {}
+
+
+
+.kitten__1 {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 15px 0;
+}
+.kitten__2 {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 15px 0;
+}
+
+.info-kttn {
+	align-self: center;
+	text-align: center;
+	border-spacing: 10px;
+	font-size: 20px;
+}
+
+
+.kittens_logo {
+	width: 25%;
+	height: 25%;
+}
+
+.status {
+	color: green;
+	margin-left: 15px;
+	font-size: 24px;
+}
+

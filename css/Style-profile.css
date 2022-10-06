@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+.content {}
+.wrapper {}
+.page-title {
+	padding-top: 96px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.profile {
+	margin-left: 30px;
+}
+.profile__info {}
+.info-view {
+}
+.info-view li{
+	margin: 7px 0;
+	font-size: 20px;
+}
+.info-view span{
+	
+	font-size: 18px;
+}

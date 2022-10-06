@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+::-webkit-input-placeholder { 
+   color: black;
+}
+:-moz-placeholder { 
+   color: black;
+}
+::-moz-placeholder { 
+   color: black	;
+}
+:-ms-input-placeholder { 
+   color: black;
+}
+
+.content {
+	padding-top: 90px;
+}
+.wrapper {
+
+}
+.page_title {
+	margin-top: 15px;
+	text-align: center;
+}
+.container {}
+.categories {
+	display: grid;
+	grid-template: repeat(2,340px) / repeat(2,340px);
+	align-content: space-around;
+	justify-content: space-around;
+	justify-items: center;
+	
+}
+.categories__1 {
+
+}
+.category {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.category__title {
+	font-size: 23px;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+	align-content: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+
+}
+.category__content {}
+.categories__2 {}
+.categories__3 {}
+.categories__4 {}
+.categories__5 {}
+
+
